@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="border w-25 p-1 mx-auto mt-2">
-        <form method="POST" action="../Controller/login_controller.php">
+        <form method = POST action="../Controller/login_controller.php">
             <label for="username_input" class="form-label">Username</label>
             <input type="text" class="form-control" name="username" id="username_input" placeholder="Username">
             <label for="password_input" class="form-label">Password</label>

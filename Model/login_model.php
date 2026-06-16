@@ -10,7 +10,7 @@ class loginModel{
         $this->db = $database->getConnection();
     }
     public function checkLogIn($username, $password){
-        $check = $this->db->prepare("SELECT * FROM USERS WHERE  USERNAME = :username AND PASSWORD = password");
+        $check = $this->db->prepare("SELECT * FROM USERS WHERE  USERNAME = :username AND PASSWORD = :password");
         $check->execute(['username' => $username, 'password' => $password]);
         return $check->fetch(PDO::FETCH_ASSOC);
     }

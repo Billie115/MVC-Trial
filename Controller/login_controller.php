@@ -15,8 +15,7 @@ class loginController{
             if($loginSuccessful){
                 session_start();
                 $_SESSION['user'] = $username;
-                echo "Welcome, " . htmlspecialchars($username) . "! mphkes bro";
-                header("Location:../View/mainPage_view.php");
+                header("Location: http://localhost/mvc%20trial/MVC-Trial/View/mainPage_view.php");
                 exit();
             }
             else{
