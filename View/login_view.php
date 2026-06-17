@@ -15,5 +15,6 @@
                 <input type="password" class="form-control" name="password" id="password_input" placeholder="Password">
                 <button type="submit" class="btn btn-primary mt-2">Log In</button>
             </form>
+        </div>
     </body>
 </html>
