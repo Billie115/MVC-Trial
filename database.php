@@ -4,7 +4,7 @@ class Database {
     private $dbname = 'MVCTRIAL';
     private $username = 'root';
     private $password = '';
-    protected $conn; // protected για να μπορούν να το βλέπουν τα Models που την κληρονομούν
+    protected $conn;
 
     public function getConnection() {
         $this->conn = null;
